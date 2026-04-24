@@ -1,16 +1,30 @@
-# React + Vite
+# 🛠️ InvoiceForge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**InvoiceForge** is a professional, high-performance, zero-backend invoice generation tool. Built with a premium macOS-inspired glassmorphism aesthetic, it allows users to create, encrypt, share, and export invoices without ever sending data to a server.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+- **🔒 Privacy First**: Military-grade AES-256 client-side encryption for secure link sharing.
+- **⏱️ Self-Destructing Links**: Shared URLs contain a hidden 24-hour expiration timestamp to prevent unauthorized long-term access.
+- **🎨 macOS Light Aesthetic**: Modern Light Mode UI with pure CSS colorful mesh gradients that work flawlessly in Incognito mode.
+- **📦 Data Portability**: Import and Export your entire workspace as local JSON files for template management and bulk data entry.
+- **📈 Intelligent Calculations**: Real-time tax and discount calculations with an animated SVG progress engine.
+- **📄 Multi-Format Export**: One-click native Print support and high-fidelity PDF generation.
+- **🖱️ Drag & Drop**: Intuitively reorder invoice line items using `@dnd-kit`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- **Node.js** (v18+)
+- **npm** or **yarn**
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/yourusername/invoiceforge.git](https://github.com/yourusername/invoiceforge.git)
+2. Install the dependencies: npm install
+3. Run the Development Server: npm run dev
