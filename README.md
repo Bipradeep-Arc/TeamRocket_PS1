@@ -1,66 +1,16 @@
-React Skeleton
+# React + Vite
 
-***🚀 DevWrap 2.0 — Repository Setup Guide***
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Follow these steps carefully to set up your team repository correctly.
+Currently, two official plugins are available:
 
-- 1️⃣ Fork the Repository
-Go to the main repository link shared by the organizers
-Click the Fork button (top-right corner) on GitHub
-This creates a copy of the repository under your account
-- 2️⃣ Rename Your Forked Repository
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-After forking:
+## React Compiler
 
-Open your forked repository
-Go to Settings → Repository Name
-Rename it using the format:
-TeamName_ProjectId
-✅ Example:
-CodeWarriors_DW102
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-⚠️ This format is mandatory for evaluation and tracking.
+## Expanding the ESLint configuration
 
-- 3️⃣ Add Your Team Members as Contributors
-Go to Settings → Collaborators
-Click Add people
-Enter your teammates’ GitHub usernames
-Send the invite
-Teammates must accept the invitation
-💡 Tip:
-
-Ensure all team members are added — commits from non-members may not be considered.
-
-- 4️⃣ Clone the Repository to Your Local Machine
-🔹 Step 1: Copy Repo URL
-Go to your forked repo
-Click Code → HTTPS
-Copy the URL
-🔹 Step 2: Clone using Git
-
-Open terminal / command prompt:
-```bash
-git clone https://github.com/your-username/TeamName_ProjectId.git
-```
-🔹 Step 3: Move into Project Folder
-cd TeamName_ProjectId
-- 5️⃣ Start Working Locally
-🔹 Create a new branch (recommended)
-```bash
-git checkout -b feature/your-feature-name
-```
-🔹 Make changes, then commit
-```bash
-git add .
-git commit -m "Added: feature description"
-```
-🔹 Push changes to GitHub
-```bash
-git push origin feature/your-feature-name
-```
-
-✅ Final Checklist
-✔ Repository name follows TeamName_ProjectId
-✔ All teammates added as collaborators
-✔ Code pushed to GitHub regularly
-✔ Proper commit messages used
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
